@@ -40,6 +40,23 @@ public class LasVariables {
         System.out.println(numero);
         float otroDecimal = 8.43f; // si declars una variable de tipo float ponemos una f al final del dato
 
+        //formas alternativas de declarar una variable (pag 11)
+        String lenguaje = "java";
+        String version = "8 o superior";
+        //tambien se puede hacer asi
+        String lenguaje1 = "java", version1 = "8 o superior";
+        int num1 = 5, num2=10; //declaro dos variables de tipo int en la misma linea
+        //tambien podria hacer
+        int num3 =0; //aqui declaro la variable sin asignar nada, coge el valor por defecto; en los numero, 0.
+        System.out.println(num3);
+        num3 = 6;
+        num3 = num1;//aqui guarda el valor 5
+        System.out.println(num3);
 
+        //inferencia de tipos
+        var variable = "hola";
+        var otraVariable = 10;
+
+        //tipo de variable int, String, etc...
     }
 }
